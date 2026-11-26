@@ -63,6 +63,18 @@
     footer a{color:var(--sand)}
     @media(max-width:800px){nav{display:none}.services{grid-template-columns:repeat(2,1fr)}.about-grid{grid-template-columns:1fr;gap:28px}}
     @media(max-width:540px){.wrap{width:min(100% - 28px,1120px)}.hero{padding:65px 0}.trust-grid{grid-template-columns:1fr;gap:14px}.services{grid-template-columns:1fr}section{padding:58px 0}.contact-box{padding:26px 18px}.nav-call{font-size:12px;padding:9px 10px}}
+
+    .hero{background:
+      linear-gradient(90deg,rgba(24,52,39,.92),rgba(36,70,56,.72)),
+      url('https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=2000&q=85') center/cover no-repeat}
+    .service{padding:0 0 22px;overflow:hidden}
+    .service img{display:block;width:100%;height:185px;object-fit:cover}
+    .service h3,.service p{margin-left:22px;margin-right:22px}
+    .service h3{margin-top:20px}
+    .service .icon{margin-left:22px;margin-top:18px;margin-bottom:0}
+    .about-photo{width:100%;height:360px;object-fit:cover;border-radius:8px;display:block}
+    @media(max-width:540px){.service img{height:210px}.about-photo{height:260px}}
+
   </style>
 </head>
 <body>
@@ -107,18 +119,21 @@
         <p>De la réparation ponctuelle à l'installation de vos équipements, MS Dépannage Plomberie vous accompagne dans vos besoins en plomberie à Venelles.</p>
       </div>
       <div class="services">
-        <article class="service"><div class="icon">⌁</div><h3>Dépannage plomberie</h3><p>Interventions pour vos problèmes et dysfonctionnements de plomberie.</p></article>
-        <article class="service"><div class="icon">⚒</div><h3>Installation et rénovation</h3><p>Installation et rénovation de vos équipements et de vos réseaux de plomberie.</p></article>
-        <article class="service"><div class="icon">♨</div><h3>Chaudière et chauffe-eau</h3><p>Réparation de chaudière, de chauffe-eau et de réservoir d'eau chaude.</p></article>
-        <article class="service"><div class="icon">▱</div><h3>Équipements sanitaires</h3><p>Installation de baignoire et réparation de douche ou d'évier.</p></article>
-        <article class="service"><div class="icon">◉</div><h3>Réservoirs et eau chaude</h3><p>Installation de réservoir d'eau chaude et de chauffe-eau.</p></article>
-        <article class="service"><div class="icon">⌁</div><h3>Tuyauterie et raccordements</h3><p>Réparation de tuyauteries et de tuyaux de machine à laver.</p></article>
+        <article class="service"><img src="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&w=900&q=85" alt="Intervention de dépannage en plomberie" loading="lazy"><div class="icon">⌁</div><h3>Dépannage plomberie</h3><p>Interventions pour vos problèmes et dysfonctionnements de plomberie.</p></article>
+        <article class="service"><img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=900&q=85" alt="Salle de bain rénovée" loading="lazy"><div class="icon">⚒</div><h3>Installation et rénovation</h3><p>Installation et rénovation de vos équipements et de vos réseaux de plomberie.</p></article>
+        <article class="service"><img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=900&q=85" alt="Équipement de chauffage et chaudière" loading="lazy"><div class="icon">♨</div><h3>Chaudière et chauffe-eau</h3><p>Réparation de chaudière, de chauffe-eau et de réservoir d'eau chaude.</p></article>
+        <article class="service"><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=85" alt="Baignoire et équipements sanitaires" loading="lazy"><div class="icon">▱</div><h3>Équipements sanitaires</h3><p>Installation de baignoire et réparation de douche ou d'évier.</p></article>
+        <article class="service"><img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=900&q=85" alt="Installation dans une salle de bain" loading="lazy"><div class="icon">◉</div><h3>Réservoirs et eau chaude</h3><p>Installation de réservoir d'eau chaude et de chauffe-eau.</p></article>
+        <article class="service"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=85" alt="Outils et matériel de plomberie" loading="lazy"><div class="icon">⌁</div><h3>Tuyauterie et raccordements</h3><p>Réparation de tuyauteries et de tuyaux de machine à laver.</p></article>
       </div>
     </div>
   </section>
 
   <section class="about" id="entreprise">
     <div class="wrap about-grid">
+      <div>
+        <img class="about-photo" src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85" alt="Intérieur de salle de bain soigné" loading="lazy">
+      </div>
       <div class="about-panel">
         <div class="eyebrow">L'expérience au service de votre confort</div>
         <div class="big">24+</div>
