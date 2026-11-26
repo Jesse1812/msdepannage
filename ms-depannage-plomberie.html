@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MS Dépannage Plomberie, entreprise familiale avec plus de 24 ans d'expérience. Dépannage, installation et rénovation de plomberie à Venelles. Devis gratuit.">
+  <meta name="theme-color" content="#244638">
+  <title>MS Dépannage Plomberie | Plombier à Venelles</title>
+  <style>
+    :root{--green:#244638;--green2:#345c49;--cream:#f6f1e7;--sand:#e7d4b1;--ink:#24312a;--muted:#66736b;--white:#fff;--line:#e6e2d9}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Georgia,"Times New Roman",serif;color:var(--ink);background:#fff;line-height:1.6}
+    h1,h2,h3,p{margin-top:0} h1,h2,h3{line-height:1.15} a{color:inherit}
+    .sans,nav,.eyebrow,.btn,.tag,.service p,.contact-details,.footer,small{font-family:Arial,Helvetica,sans-serif}
+    .wrap{width:min(1120px,calc(100% - 40px));margin:auto}
+    header{background:var(--green);color:white;position:relative;z-index:2}
+    .nav{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+    .brand-mark{width:44px;height:44px;border:1px solid var(--sand);border-radius:50%;display:grid;place-items:center;color:var(--sand);font:700 22px Georgia}
+    .brand strong{display:block;letter-spacing:.08em;font:700 14px Arial,sans-serif}
+    .brand small{display:block;color:var(--sand);font-size:10px;letter-spacing:.2em}
+    nav{display:flex;gap:24px;align-items:center;font-size:13px}
+    nav a{text-decoration:none;color:#f7f4ed} nav a:hover{color:var(--sand)}
+    .nav-call{border:1px solid var(--sand);padding:10px 15px;border-radius:4px;text-decoration:none;font:700 13px Arial,sans-serif}
+    .hero{background:linear-gradient(115deg,rgba(24,52,39,.96),rgba(36,70,56,.82)),radial-gradient(ellipse at 85% 20%,#82917b,#244638);color:white;padding:88px 0 84px;position:relative;overflow:hidden}
+    .hero:after{content:"";position:absolute;width:420px;height:420px;border:1px solid rgba(231,212,177,.25);border-radius:50%;right:-100px;top:-150px;box-shadow:0 0 0 35px rgba(231,212,177,.04),0 0 0 75px rgba(231,212,177,.03)}
+    .hero-content{max-width:720px;position:relative;z-index:1}
+    .eyebrow{text-transform:uppercase;letter-spacing:.18em;color:var(--sand);font-size:11px;font-weight:700}
+    h1{font-size:clamp(38px,6vw,66px);margin:18px 0 20px;max-width:720px}
+    .hero p{font:18px/1.7 Arial,sans-serif;color:#f0f0e9;max-width:620px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 20px;border-radius:4px;text-decoration:none;font-weight:700;font-size:14px;border:1px solid transparent}
+    .btn-gold{background:var(--sand);color:var(--green)} .btn-outline{border-color:rgba(255,255,255,.65);color:white}
+    .trust{background:var(--cream);padding:22px 0}
+    .trust-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;text-align:center}
+    .trust strong{display:block;color:var(--green);font:700 14px Arial,sans-serif}
+    .trust span{font:12px Arial,sans-serif;color:var(--muted)}
+    section{padding:76px 0}
+    .section-head{text-align:center;max-width:700px;margin:0 auto 38px}
+    h2{font-size:clamp(30px,4vw,42px);color:var(--green);margin-bottom:14px}
+    .section-head p,.intro{font:16px/1.8 Arial,sans-serif;color:var(--muted)}
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .service{border:1px solid var(--line);border-radius:7px;padding:24px;background:#fff}
+    .service .icon{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:var(--cream);color:var(--green);font:22px Georgia;margin-bottom:16px}
+    .service h3{font-size:19px;color:var(--green);margin-bottom:9px}
+    .service p{font-size:13px;color:var(--muted);margin:0}
+    .about{background:var(--cream)}
+    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
+    .about-panel{background:var(--green);color:white;border-radius:8px;padding:38px;min-height:280px;display:flex;flex-direction:column;justify-content:center}
+    .about-panel .big{font-size:66px;color:var(--sand);line-height:1;font-weight:700}
+    .about-panel p{font:14px/1.7 Arial,sans-serif;color:#f1f0e9;margin:15px 0 0}
+    .about-copy p{font:16px/1.85 Arial,sans-serif;color:var(--muted)}
+    .values{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+    .tag{font-size:12px;border:1px solid #d5c9b5;border-radius:99px;padding:8px 12px;color:var(--green);background:#fff}
+    .contact{background:var(--green);color:white}
+    .contact h2{color:white}
+    .contact .section-head p{color:#e0e7e1}
+    .contact-box{max-width:760px;margin:auto;background:#fff;color:var(--ink);padding:34px;border-radius:8px;text-align:center}
+    .contact-box p{font:15px/1.7 Arial,sans-serif;color:var(--muted)}
+    .phone{font:700 clamp(25px,4vw,36px) Arial,sans-serif;color:var(--green);text-decoration:none;display:inline-block;margin:8px 0 20px}
+    .contact-details{font-size:13px;color:var(--muted)}
+    footer{background:#193329;color:#e8eee8;padding:26px 0;font:12px Arial,sans-serif}
+    .footer-row{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+    footer a{color:var(--sand)}
+    @media(max-width:800px){nav{display:none}.services{grid-template-columns:repeat(2,1fr)}.about-grid{grid-template-columns:1fr;gap:28px}}
+    @media(max-width:540px){.wrap{width:min(100% - 28px,1120px)}.hero{padding:65px 0}.trust-grid{grid-template-columns:1fr;gap:14px}.services{grid-template-columns:1fr}section{padding:58px 0}.contact-box{padding:26px 18px}.nav-call{font-size:12px;padding:9px 10px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#accueil" aria-label="MS Dépannage Plomberie - accueil">
+      <span class="brand-mark">MS</span><span><strong>MS DÉPANNAGE</strong><small>PLOMBERIE</small></span>
+    </a>
+    <nav aria-label="Navigation principale">
+      <a href="#services">Prestations</a><a href="#entreprise">L'entreprise</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-call" href="tel:+33939271967">09 39 27 19 67</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="accueil">
+    <div class="wrap hero-content">
+      <div class="eyebrow">Entreprise familiale · Plus de 24 ans d'expérience</div>
+      <h1>Votre plombier de confiance à Venelles</h1>
+      <p>Pour vos dépannages, installations et rénovations de plomberie, faites appel à un savoir-faire de proximité et à une entreprise familiale à votre écoute.</p>
+      <div class="actions">
+        <a class="btn btn-gold" href="tel:+33939271967">Appeler le 09 39 27 19 67</a>
+        <a class="btn btn-outline" href="#contact">Demander un devis gratuit</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="trust">
+    <div class="wrap trust-grid">
+      <div><strong>Plus de 24 ans</strong><span>de savoir-faire</span></div>
+      <div><strong>Entreprise familiale</strong><span>proche de ses clients</span></div>
+      <div><strong>Devis gratuit</strong><span>pour vos projets</span></div>
+    </div>
+  </div>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow" style="color:#8b7654">Nos domaines d'intervention</div>
+        <h2>Nos prestations de plomberie</h2>
+        <p>De la réparation ponctuelle à l'installation de vos équipements, MS Dépannage Plomberie vous accompagne dans vos besoins en plomberie à Venelles.</p>
+      </div>
+      <div class="services">
+        <article class="service"><div class="icon">⌁</div><h3>Dépannage plomberie</h3><p>Interventions pour vos problèmes et dysfonctionnements de plomberie.</p></article>
+        <article class="service"><div class="icon">⚒</div><h3>Installation et rénovation</h3><p>Installation et rénovation de vos équipements et de vos réseaux de plomberie.</p></article>
+        <article class="service"><div class="icon">♨</div><h3>Chaudière et chauffe-eau</h3><p>Réparation de chaudière, de chauffe-eau et de réservoir d'eau chaude.</p></article>
+        <article class="service"><div class="icon">▱</div><h3>Équipements sanitaires</h3><p>Installation de baignoire et réparation de douche ou d'évier.</p></article>
+        <article class="service"><div class="icon">◉</div><h3>Réservoirs et eau chaude</h3><p>Installation de réservoir d'eau chaude et de chauffe-eau.</p></article>
+        <article class="service"><div class="icon">⌁</div><h3>Tuyauterie et raccordements</h3><p>Réparation de tuyauteries et de tuyaux de machine à laver.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="entreprise">
+    <div class="wrap about-grid">
+      <div class="about-panel">
+        <div class="eyebrow">L'expérience au service de votre confort</div>
+        <div class="big">24+</div>
+        <h2 style="color:white;margin:8px 0 0">ans d'expérience</h2>
+        <p>Une entreprise familiale qui privilégie la proximité, l'écoute et le travail bien fait.</p>
+      </div>
+      <div class="about-copy">
+        <div class="eyebrow" style="color:#8b7654">Qui sommes-nous ?</div>
+        <h2>Un artisan proche de vous</h2>
+        <p>Depuis plus de 24 ans, MS Dépannage Plomberie met son expérience au service des particuliers à Venelles. Entreprise familiale, nous accordons une importance particulière à la qualité de l'accompagnement et à la confiance avec chaque client.</p>
+        <p>Vous avez un dépannage à prévoir, un équipement à installer ou un projet de rénovation ? Contactez-nous pour échanger sur votre besoin et obtenir un devis gratuit.</p>
+        <div class="values"><span class="tag">Entreprise familiale</span><span class="tag">Proximité</span><span class="tag">Devis gratuit</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Parlons de votre projet</div>
+        <h2>Besoin d'un plombier à Venelles ?</h2>
+        <p>Pour un dépannage, une installation ou une rénovation, contactez MS Dépannage Plomberie.</p>
+      </div>
+      <div class="contact-box">
+        <h3 style="color:var(--green);font-size:24px;margin-bottom:8px">Contactez-nous par téléphone</h3>
+        <p>Appelez-nous pour présenter votre besoin et demander votre devis gratuit.</p>
+        <a class="phone" href="tel:+33939271967">09 39 27 19 67</a>
+        <div><a class="btn btn-gold" href="tel:+33939271967">Appeler maintenant</a></div>
+        <div class="contact-details" style="margin-top:20px">Zone d'intervention : Venelles · Devis gratuit</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-row">
+    <div>© <span id="year">2026</span> MS Dépannage Plomberie. Tous droits réservés.</div>
+    <div>Plomberie · Dépannage · Installation · Rénovation · Venelles</div>
+  </div>
+</footer>
+</body>
+</html>
